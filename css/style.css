@@ -1,0 +1,57 @@
+/*evito que la nav pise el contenido de la primer seccion*/
+body {
+  padding-top: 15rem;
+}
+/* esto es del efecto olitas */
+svg {
+  vertical-align: middle;
+}
+/* esto adjusta la imagen de elidiomaturco*/
+.img-box {
+  text-align: center;
+  width: 40%;
+}
+/* son las lineas de colores del footer*/
+.footerbackgroundcolor {
+  background-color: #ff7b00;
+}
+
+.footerbackgroundcolor2 {
+  background-color: #ff7b00eb;
+}
+
+/* esto es el boton de enviar del form para pedir info de idioma con pseudoelemento con efecto*/
+
+.buttonsend {
+  border: 0.125rem solid #ff6347cc;
+  background: none;
+  color: #ff6347cc;
+  cursor: pointer;
+  font-size: 0.938rem;
+  text-transform: uppercase;
+  padding: 1rem 2rem;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.5s;
+}
+
+.buttonsend:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 0%;
+  width: 100%;
+  background-color: #ff6347cc;
+  z-index: -1;
+  border-radius: 0 0 50% 50%;
+  transition: all 0.5s;
+}
+
+.buttonsend:hover:before {
+  height: 190%;
+}
+
+.buttonsend:hover {
+  color: white;
+}
