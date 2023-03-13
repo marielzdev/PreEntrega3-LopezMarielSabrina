@@ -1,7 +1,9 @@
+/* footer del copyright */
 .footerbackgroundcolor {
-  background-color: #ff7b00;
+  background-color: $colorfooter1;
 }
-
+/* footer de contacto*/
 .footerbackgroundcolor2 {
-  background-color: #ff7b00eb;
+  background-color: $colorfooter2;
+  text-align: center;
 }

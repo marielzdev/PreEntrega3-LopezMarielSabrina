@@ -49,12 +49,15 @@ body {
   color: white;
 }
 
+/* footer del copyright */
 .footerbackgroundcolor {
   background-color: #ff7b00;
 }
 
+/* footer de contacto*/
 .footerbackgroundcolor2 {
   background-color: rgba(255, 123, 0, 0.9215686275);
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
